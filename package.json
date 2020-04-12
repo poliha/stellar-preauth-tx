@@ -1,0 +1,16 @@
+{
+  "name": "stellar-preauth-tx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "stellar-sdk": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "peter@oliha.dev",
+  "license": "ISC"
+}
