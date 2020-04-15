@@ -76,7 +76,7 @@ async function createPreauthTx() {
       source: senderKp.publicKey(),
     });
 
-    // goal is to increment the sequence numebr by 2, but we only call
+    // The goal is to increment the sequence number by 2, but we only call
     // incrementSequenceNumber() once here because the transaction builder also
     // auto increments the sequence number.
     senderAccount.incrementSequenceNumber();
@@ -136,7 +136,7 @@ async function createPreauthTx() {
     receiverAccount = await accountDetail(receiverKp.publicKey());
     logInfo('Receiver: ', displayAccount(receiverAccount));
 
-    logInfo('End script.');
+    logInfo('End script. Visit https://oliha.dev for questions and comments.');
 
   } catch (error) {
     if (error.response && error.response.data) {
